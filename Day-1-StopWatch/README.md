@@ -1,3 +1,5 @@
-:point_right: What you should see
+:point_right: Project Overview :
 
-Live link: 
+* A simple and accurate stopwatch application that allows you to start, stop, and reset the timer.
+
+* Live link: 
