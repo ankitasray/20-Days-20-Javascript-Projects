@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PollSystem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Poll System</h1>
+        <div class="poll">
+            <h2>Who is your favorite singer?</h2>
+            <div class="options">
+                <div class="option">
+                    <input type="radio" id="opt1" name="poll" value="opt1">
+                    <label for="opt1">Taylor Swift </label>
+                </div>
+                
+                <div class="option">
+                    <input type="radio" id="opt2" name="poll" value="opt2">
+                    <label for="opt2">Lana Del Ray</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" id="opt3" name="poll" value="opt3">
+                    <label for="opt3">Ariana Grande</label>
+                </div>
+                
+                <div class="option">
+                    <input type="radio" id="opt4" name="poll" value="opt4">
+                    <label for="opt4">Olivia Rodrigo</label>
+                </div>
+                
+            </div>
+            <button onclick="submit()">Submit Vote</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
